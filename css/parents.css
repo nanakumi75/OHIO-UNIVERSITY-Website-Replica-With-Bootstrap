@@ -1,0 +1,181 @@
+body{
+	font-family:Verdana,Times, Times New Roman, serif;
+	overflow-x:hidden;
+	box-sizing:border-box;
+}
+
+/* heade and navigation area */
+#header{
+	background-color:seagreen;
+	padding:10px;
+}
+#header a{
+	margin-top:10px;
+	margin-bottom:15px;
+	margin:5px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#logo_image{
+	width:150px;
+	height:50px;
+}
+
+#navigation-links a{
+	color:seagreen;
+	font-weight:bold;
+}
+
+#navigation-links a:hover{
+	border-bottom:2px solid seagreen;
+}
+
+
+#searchMenu a{
+	color:black;
+	font-weight:bold;
+}
+#searchMenu a:hover{
+	color:white;
+	background-color:seagreen;	 
+}
+
+#undergrad{
+	color:seagreen;
+	margin-left:20px;
+	margin-top:20px !important;
+	font-size:30px;
+}
+/*header navigation area ends */
+
+/* main area */
+#studentsafairsbg{
+	background-image:url('../images/admissions.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-size:cover;
+	padding:50px;
+  	
+}
+ 
+ #studentsafairsbg .parents{
+	 color:white;
+	 font-size:70px;
+	 font-weight:bold;
+	 text-shadow:2px 2px 2px black; 
+ }
+ 
+ #studentsafairsbg .parentsbody{
+	 color:white;
+	 font-weight:bold;
+	 text-shadow:3px 3px 3px black;
+	 font-size:18px;
+ }
+ 
+ #signup-wrapper{
+	 background:seagreen;
+	 padding:15px;
+	 border:2px solid seagreen;
+	 margin-left:40%;
+	 margin-right:40%;
+	 border-radius:5px;
+	 margin-top:30px;
+ }
+ 
+ #signup-wrapper a{
+	 color:white;
+	 font-weight:bold;
+	 font-size:20px;
+ }
+ 
+ #signup-wrapper:hover{
+	 background:white;
+	 padding:15px;
+	 border:2px solid seagreen;
+	 margin-left:40%;
+	 margin-right:40%;
+	 border-radius:5px;
+	 margin-top:30px;
+	 transition:.4s;
+	 cursor:pointer;
+ }
+ 
+ #signup-wrapper:hover a{
+	 color:seagreen;
+	 font-weight:bold;
+	 font-size:20px;
+ }
+ #socialmedia{
+	 display:inline-table;
+	 width:80px;
+	 height:80px;
+	 border-radius:50%;
+	 border:2px solid seagreen;
+	 background-color:white;
+	 margin:5%;
+	 text-align:center;
+	 padding-top:18px;
+	 color:seagreen;
+ }
+ 
+ #image-container{
+	 overflow:hidden;
+	 position:relative;
+	 cursor:pointer;
+ }
+ 
+ #image-container:hover img{
+	 transform: scale(1.5);
+     transition:.6s;	 
+}
+
+#text-overlay{
+	position:absolute;
+	padding:10px;
+	top:70%;
+}
+
+#text-overlay a{
+	color:white;
+	font-weight:bold;
+	font-size:25px;
+	text-shadow:2px 2px 2px black;
+}
+
+#moreinfo{
+	border:2px solid seagreen;
+	background-color:seagreen;
+	border-radius:10px;
+}
+
+#moreinfo:hover{
+	border:2px solid seagreen;
+	background-color:white;
+	transition:.5s;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+#moreinfo a{
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+}
+
+#moreinfo:hover a{
+	color:seagreen;
+	font-weight:bold;
+	font-size:20px;
+}
+  
+/* main area ends */
+  
+ 
+
+/* footer area starts */
+#footercontainer{
+	background-color:gray;
+}

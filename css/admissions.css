@@ -1,0 +1,264 @@
+body{
+	font-family:Verdana,Times, Times New Roman, serif;
+	overflow-x:hidden;
+	box-sizing:border-box;
+}
+
+/* heade and navigation area */
+#header{
+	background-color:seagreen;
+	padding:10px;
+}
+#header a{
+	margin-top:10px;
+	margin-bottom:15px;
+	margin:5px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#logo_image{
+	width:150px;
+	height:50px;
+}
+
+#navigation-links a{
+	color:seagreen;
+	font-weight:bold;
+}
+
+#navigation-links a:hover{
+	border-bottom:2px solid seagreen;
+}
+
+
+#searchMenu a{
+	color:black;
+	font-weight:bold;
+}
+#searchMenu a:hover{
+	color:white;
+	background-color:seagreen;	 
+}
+
+#undergrad{
+	color:seagreen;
+	margin-left:20px;
+	margin-top:20px !important;
+	font-size:30px;
+}
+/*header navigation area ends */
+
+/* main area */
+#background{
+	background-image:url('../images/admissions.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-size:cover;
+	padding:50px;	 
+}
+
+ #studentadmission{
+	 border:2px solid white;
+	 padding:20px;
+ }
+ 
+ #studentadmission a{
+	 color:white; 
+	 font-weight:bold;
+	 background-color:transparent;
+	 text-shadow:2px 2px 2px 2px black;
+ }
+ 
+ #studentadmission:hover{
+	 background-color:white;
+	 cursor:pointer;
+	 border:2px solid seagreen;
+ }
+ 
+ #studentadmission:hover a{
+	 color:seagreen;
+ }
+ 
+ #response{
+	 background-color:seagreen;
+	 text-align:center;
+	 color:white;
+ }
+ 
+ #response #responsedata{
+	 font-weight:bold;
+	 font-size:20px;
+ }
+ 
+ #response a{
+	 color:white;
+	 text-transform:uppercase;
+	 text-decoration:underline;
+ }
+ 
+ #applications{
+	 background:whitesmoke;
+	 padding-bottom:30px;
+ }
+ 
+ #applications:hover{
+	 background:seagreen;
+	 color:white;
+	 padding-bottom:30px;
+	 cursor:pointer;
+	 transition:.8s ease-in;
+ }
+ 
+ #applications h4{
+	 color:seagreen;
+	 padding-left:10px;
+	 margin-top:20px;
+ }
+ 
+ #applications:hover h4{
+	 color:white;
+	 padding-left:10px;
+	 margin-top:20px;
+ }
+ 
+ #applications p{
+	 color:dimgray;
+	 padding-left:10px;
+	 margin-top:20px;
+	 margin-bottom:30px;
+	 font-weight:bold;
+ }
+ 
+ #applications:hover p{
+	 color:white;
+	 padding-left:10px;
+	 margin-top:20px; 
+ }
+ 
+ #studentwalking{
+	 background-image:url('../images/walk.jpg');
+	 background-repeat:no-repeat;
+	 background-position:top;
+	 background-size:cover; 
+ }
+ 
+ #readysetapply{
+	 background-color:whitesmoke;
+	 padding-top:10%;
+	 text-align:center;
+	 padding-bottom:10%;
+ }
+ 
+ #readysetapply h1{
+	 color:seagreen;
+	 margin-bottom:15px;
+ }
+ 
+ #readysetapply p{
+	 font-weight:bold;
+ }
+  
+ 
+ #discovery{
+	 background-image:url('../images/OhioStateUniversity.jpg');
+	 background-repeat:no-repeat;
+	 background-position:top;
+	 background-size:cover; 
+ }
+ 
+ #discoverydata{
+	 background-color:whitesmoke;
+	 padding-top:10%;
+	 padding-bottom:10%;
+ }
+ 
+ #registernow{
+	 background-color:seagreen;
+	 color:white;
+	 padding-top:15px;
+	 padding-bottom:15px;
+	 margin-left:30%;
+	 margin-right:30%;
+	 border:2px solid seagreen;
+ }
+ 
+ #registernow:hover{
+	 background-color:white;
+	 padding-top:15px;
+	 padding-bottom:15px;
+	 margin-left:30%;
+	 margin-right:30%;
+	 border:2px solid seagreen;
+ }
+ 
+ #registernow a{
+	 color:white;
+	 font-weight:bold;
+	 font-size:20px;
+ }
+ 
+ #registernow:hover a{
+	 color:seagreen;
+ }
+ 
+ #transfersd{
+	 color:seagreen;
+	 text-decoration:underline;
+	 font-size:20px;
+ }
+ #transfersd:hover{
+	 letter-spacing:1px;
+	 transition:1.2s;
+ }
+ 
+ #submitbutton{
+	 padding:15px;
+	 background-color:seagreen;
+	 width:200px;
+	 text-align:center;
+	 border-radius:10px;
+	 margin-top:25px;
+ }
+ 
+ #submitbutton #submitbtn{
+	 color:white;
+	 background-color:seagreen;	 
+ }
+ 
+ #socialmedia{
+	 display:inline-table;
+	 width:80px;
+	 height:80px;
+	 border-radius:50%;
+	 border:2px solid seagreen;
+	 background-color:white;
+	 margin:5%;
+	 text-align:center;
+	 padding-top:18px;
+	 color:seagreen;
+ }
+ 
+ #socialmedia:hover{
+	 display:inline-table;
+	 width:80px;
+	 height:80px;
+	 border-radius:50%;
+	 border:2px solid seagreen;
+	 background-color:seagreen;
+	 margin:5%;
+	 text-align:center;
+	 padding-top:18px;
+	 color:white;
+	 cursor:pointer;
+ }
+/* main area ends */
+  
+ 
+
+/* footer area starts */
+#footercontainer{
+	background-color:gray;
+}

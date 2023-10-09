@@ -1,0 +1,70 @@
+ body{
+	font-family:Verdana,Times, Times New Roman, serif;
+	overflow-x:hidden;
+	box-sizing:border-box;
+}
+
+/* heade and navigation area */
+#header{
+	background-color:seagreen;
+	padding:10px;
+}
+#header a{
+	margin-top:10px;
+	margin-bottom:15px;
+	margin:5px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#logo_image{
+	width:150px;
+	height:50px;
+}
+
+#navigation-links a{
+	color:seagreen;
+	font-weight:bold;
+}
+
+#navigation-links a:hover{
+	border-bottom:2px solid seagreen;
+}
+
+
+#searchMenu a{
+	color:black;
+	font-weight:bold;
+}
+#searchMenu a:hover{
+	color:white;
+	background-color:seagreen;	 
+}
+
+#undergrad{
+	color:seagreen;
+	margin-left:20px;
+	margin-top:20px !important;
+	font-size:30px;
+}
+/*header navigation area ends */
+
+/* main area */
+ 
+/* main area ends */
+ #applying{
+	background-image:url('../images/admissions.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-size:cover;
+	padding-top:200px;
+    padding-bottom:200px;
+    filter:brightness(2.3px);	
+} 
+ 
+/* footer area starts */
+#footercontainer{
+	background-color:gray;
+}

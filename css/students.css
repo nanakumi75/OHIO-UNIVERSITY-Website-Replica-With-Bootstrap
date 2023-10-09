@@ -1,0 +1,247 @@
+ body{
+	font-family:Verdana,Times, Times New Roman, serif;
+	overflow-x:hidden;
+	box-sizing:border-box;
+}
+
+/* heade and navigation area */
+#header{
+	background-color:seagreen;
+	padding:10px;
+}
+#header a{
+	margin-top:10px;
+	margin-bottom:15px;
+	margin:5px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#logo_image{
+	width:150px;
+	height:50px;
+}
+
+#navigation-links a{
+	color:seagreen;
+	font-weight:bold;
+}
+
+#navigation-links a:hover{
+	border-bottom:2px solid seagreen;
+}
+
+
+#searchMenu a{
+	color:black;
+	font-weight:bold;
+}
+#searchMenu a:hover{
+	color:white;
+	background-color:seagreen;	 
+}
+
+#undergrad{
+	color:seagreen;
+	margin-left:20px;
+	margin-top:20px !important;
+	font-size:30px;
+}
+/*header navigation area ends */
+
+/* main area */
+#studentsafairsbg{
+	background-image:url('../images/admissions.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-size:cover;
+	padding:50px;	 
+}
+ 
+#studentsbtn{
+	border:2px solid white;
+	text-align:center;
+	padding:20px;
+	margin-top:150px;
+	margin-bottom:150px;
+}
+ 
+ #studentsbtn:hover{
+	border:1px solid seagreen;
+	text-align:center;
+	padding:20px;
+	margin-top:150px;
+	margin-bottom:150px;
+	background-color:whitesmoke;
+	transition:.5s;
+	cursor:pointer;
+}
+
+#studentsbtn:hover a{
+	color:seagreen;
+	text-shadow:none;
+}
+
+
+#studentsbtn a{
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	text-shadow:2px 2px 2px black;
+} 
+  
+ #fall2020planning{
+	 border:1px solid seagreen;
+	 background-color:seagreen;
+	 padding:20px;
+	 border-radius:5px;
+	 margin-left:40%;
+	 margin-right:40%;
+ }
+ 
+  
+ #fall2020planning:hover{
+	 border:1px solid seagreen;
+	 background-color:whitesmoke;
+	 padding:20px;
+	 border-radius:5px;
+	 margin-left:40%;
+	 margin-right:40%;
+	 transition:.5s;
+	 cursor:pointer;
+ }
+ 
+ #fall2020planning a{
+	 color:white;
+	 font-weight:bold;
+	 font-size:18px;
+ }
+ #fall2020planning:hover a{
+	 color:seagreen;
+	 font-weight:bold;
+	 font-size:18px;
+ }
+ 
+ #livelearnbtn{
+	 border:2px solid seagreen;
+	 border-radius:50%;
+	 padding-top:15px;
+	 height:60px;
+	 width:60px;
+	 color:seagreen;
+	 margin-left:20%;
+ }
+ #socialmedia{
+	 display:inline-table;
+	 width:80px;
+	 height:80px;
+	 border-radius:50%;
+	 border:2px solid seagreen;
+	 background-color:white;
+	 margin:5%;
+	 text-align:center;
+	 padding-top:18px;
+	 color:seagreen;
+ }
+ 
+  #socialmedia:hover{
+	 display:inline-table;
+	 width:80px;
+	 height:80px;
+	 border-radius:50%;
+	 border:2px solid seagreen;
+	 background-color:seagreen;
+	 margin:5%;
+	 text-align:center;
+	 padding-top:18px;
+	 color:white;
+	 cursor:pointer;
+ }
+ 
+ #livelearn a{
+	color:seagreen; 
+	font-weight:bold;
+ }
+ 
+ #livelearn:hover{
+	 cursor:pointer;
+ }
+ 
+ #livelearn:hover a{
+	 text-decoration:underline;
+ }
+ #livelearnicon:hover{
+	 border:2px solid seagreen;
+	 padding:10px;
+	 color:seagreen;
+	 border-radius:5px;
+	 background:white;
+	 transition:.5s;
+ }
+ 
+ #livelearnicon{
+	 border:2px solid seagreen;
+	 padding:10px;
+	 color:white;
+	 border-radius:5px;
+	 background-color:seagreen;
+ }
+ 
+ #mycard a{
+	 color:seagreen;
+	 font-weight:bold;
+	 font-size:20px;
+ }
+ 
+ #mycard:hover{
+	 background-color:seagreen;
+	 transition:.4s;
+	 transform:translateY(15px);
+	 cursor:pointer;
+ }
+ 
+ #mycard:hover a{
+	 color:white;
+	 text-decoration:underline;
+ }
+ 
+ #division{
+	 border:2px solid white;
+	 padding:15px;
+	 margin-left:40%;
+	 margin-right:40%;
+	 margin-top:30px;
+	 border-radius:8px;
+ }
+ 
+ #division a{
+	 color:white;
+	 font-weight:bold;
+	 font-size:20px;
+ }
+ 
+ #division:hover{
+	 border:2px solid white;
+	 padding:15px;
+	 margin-left:40%;
+	 margin-right:40%;
+	 margin-top:30px;
+	 border-radius:8px;
+	 background-color:white;
+	 transition:.5s;
+	 cursor:pointer;
+ }
+ 
+ #division:hover a{
+	 color:seagreen;
+ }
+/* main area ends */
+  
+ 
+
+/* footer area starts */
+#footercontainer{
+	background-color:gray;
+}
